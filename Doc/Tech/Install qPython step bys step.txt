@@ -1,0 +1,7 @@
+// Download qPython code first from git
+1. config Path of pip first in environment. C:\Python27\Scripts
+2. upgrade pip to 8.* from https://pypi.python.org/pypi/pip#downloads
+3. Run python setup.py build_ext --inplace and python setup.py bdist
+4. Copy output from E:\zigstrat\qPython\dist to  C:\Python27\Lib\site-packages\qpython
+5. install required lib by pip install -r requirements.txt. You may hit many errors, keep trying to re-run it.
+6. Start a local q server and modify sample code of qPython to connect to the server.
